@@ -2,6 +2,7 @@ name: fwfh_selectable_text
 version: 0.8.3+1
 description: WidgetFactory extension to render SelectableText.
 homepage: https://github.com/daohoangson/flutter_widget_from_html
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 environment:
   flutter: ">=2.8.0"
@@ -10,7 +11,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_widget_from_html_core: ^0.8.5+1
+  flutter_widget_from_html_core:
+    git:
+      url: git@github.com:gem85247/flutter_widget_from_html.git
+      path: packages/core
 
 dependency_overrides:
   flutter_widget_from_html_core:
