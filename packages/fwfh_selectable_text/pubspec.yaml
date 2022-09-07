@@ -15,6 +15,10 @@ dependencies:
     git:
       url: git@github.com:gem85247/flutter_widget_from_html.git
       path: packages/core
+  fwfh_text_style:
+    git:
+      url: git@github.com:gem85247/flutter_widget_from_html.git
+      path: packages/fwfh_text_style
 
 dependency_overrides:
   flutter_widget_from_html_core:
